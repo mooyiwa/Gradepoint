@@ -1,0 +1,115 @@
+body {
+font-size:80%;
+margin: 0 auto;
+}
+
+html{
+overflow-x:hidden;
+margin: 0 auto;
+}
+
+
+.container{
+margin:  0 auto;
+width: 1200px;
+
+}
+
+/**the grids*/
+.grid_1,
+.grid_2,
+.grid_3,
+.grid_4,
+.grid_5,
+.grid_6,
+.grid_7,
+.grid_8,
+.grid_9,
+.grid_10,
+.grid_11,
+.grid_12 {
+  display: inline;
+  float: left;
+  margin-left: 10px;
+  margin-right: 10px;
+ 
+  min-height: 30px;
+  /*border: 1px dashed #ccc;*/
+}
+.grid_12{  
+    
+    width: 1178px;
+    
+}
+.grid_11{
+   
+    min-height: 30px;
+    width: 1078px;
+   
+ 
+}
+.grid_10{
+    
+    min-height: 30px;
+    width: 978px;
+ 
+}
+.grid_9{
+   
+    min-height: 30px;
+    width: 878px;
+    
+}
+.grid_8{
+   
+    min-height: 30px;
+    width: 778px;
+    
+}
+.grid_7{
+    
+    min-height: 30px;
+    width: 678px;
+   
+}
+.grid_6{
+   
+    min-height: 30px;
+    width: 578px;
+    
+}
+.grid_5{
+  
+    min-height: 30px;
+    width: 478px;
+     
+}
+.grid_4{
+   
+    min-height: 30px;
+    width: 378px;
+    
+}
+.grid_3{
+    
+    min-height: 30px;
+    width: 278px;
+     
+}
+.grid_2{
+    
+    min-height: 30px;
+    width: 178px;
+  
+}
+.grid_1{
+    
+    min-height: 30px;
+    width: 78px;
+    
+}
+/*clear float*/
+.clear,.alpha,.row{
+    clear: left;
+}
+

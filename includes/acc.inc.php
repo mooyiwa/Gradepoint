@@ -1,0 +1,1 @@
+<span class="logname"><?php echo $_SESSION['logname']," " ?> </span> <span class="logname"><a href='../logout.php?logout=1'>Sign Out</a></span>

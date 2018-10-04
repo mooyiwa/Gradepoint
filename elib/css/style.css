@@ -1,0 +1,273 @@
+        body.home{
+            background: url('../img/body.png');
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+     
+@font-face {
+	font-family: 'SourceSansPro-ExtraLight';
+	src: url('../SourceSansPro-ExtraLight-webfont.eot');
+	src: url('../SourceSansPro-ExtraLight-webfont.eot?#iefix') format('embedded-opentype'), 
+	     url('../SourceSansPro-ExtraLight-webfont.woff') format('woff'), 
+	     url('../SourceSansPro-ExtraLight-webfont.ttf')  format('truetype'), 
+	     url('../SourceSansPro-ExtraLight-webfont.svg#svgFontName') format('svg'); 
+	}
+     
+        body{
+    font-family: SourceSansPro-ExtraLight, sans-serif;
+    color: #333;
+    font-size: 0.9em;
+    background: url('../img/geometry.png');
+    background-repeat: repeat;
+
+}
+
+.form.pushdown{
+    position: relative;
+    top: 25px;
+}
+.logname{
+    color: #333;
+    padding: 1px;
+    position: relative;
+    top: 6px;
+}
+.logname.usracct{
+    position: relative;
+    left: 205px;
+}
+p{
+    color: #333;
+}
+.form ul li{
+    list-style: none;
+}
+.grid_7.workarea{
+    /*background: #fff;*/
+    position: relative;
+    top: 54px;
+    left: -20px;
+    min-height: 500px;
+}
+.searchbox{
+    height: 30px;
+    width: 550px;
+    border: 1px solid #ccc;
+    margin-bottom: 10px;
+    
+}
+.searchbutton{
+    background: #1a5252;
+font-family: SourceSansPro-ExtraLight, sans-serif;
+font-size: 1.2em;
+    padding: 6px;
+    color: #fff;
+    border: none;
+    width: 65px;
+    height: 40px;
+}
+button{
+        background: #99c;
+font-family: SourceSansPro-ExtraLight, sans-serif;
+font-size: 1.2em;
+    padding: 4px;
+    color: #fff;
+    border: none;
+}
+ul.cates{
+    position: relative;
+    left: -25px;
+}
+ul.cates li a{
+    line-height: 150%;
+}
+
+/*form styling*/
+.form input#submit{
+padding: 4px;
+background: #1a5252;
+
+}
+
+.form input{
+margin-bottom: 2px;
+background: #FDFEFE;
+
+}
+.form input:focus,.form select:focus {
+border: 1px solid #09c;
+}
+
+.form label{
+font-size: 1.1em;
+color: #1a5252;
+font-weight: bold;
+}
+label.error{
+ font-size: 0.9em;
+color: #1a5252; 
+font-weight: normal;
+}
+.find, .form ul li input.find{
+padding: 3px;
+
+color: #fff;
+background: #1a5252;
+font-family: SourceSansPro-ExtraLight, sans-serif;
+font-size: 1.0em;
+
+}
+.grid_5.login table{
+    position: relative;
+    left:60px;
+    top:75px;
+}
+.ent{
+    height: 26px;
+    width: 205px;
+        box-shadow: 0px 0px 1px rgba(0, 0, 0, 0.06);
+    -moz-box-shadow: 0px 0px 1px rgba(0, 0, 0, 0.06);
+    -webkit-box-shadow: 0px 0px 1px rgba(0, 0, 0, 0.06);
+   
+    
+}
+.select, table td input{
+    height: 26px;
+            box-shadow: 0px 0px 1px rgba(0, 0, 0, 0.06);
+    -moz-box-shadow: 0px 0px 1px rgba(0, 0, 0, 0.06);
+    -webkit-box-shadow: 0px 0px 1px rgba(0, 0, 0, 0.06);
+   
+}
+input, textarea{
+    color: #669;
+    border: none;
+    border: 1px solid #ddd;
+}
+.textarea{
+    height: 90px;
+    width: 250px;
+          box-shadow: 0px 0px 1px rgba(0, 0, 0, 0.06);
+    -moz-box-shadow: 0px 0px 1px rgba(0, 0, 0, 0.06);
+    -webkit-box-shadow: 0px 0px 1px rgba(0, 0, 0, 0.06);
+      
+}
+
+
+
+/**/
+p.acctname{
+    font-size: 0.8em;
+   
+}
+button.bigsearch{
+    background: #99c;
+    color: #fff;
+    border: none;
+    padding: 9px;
+    font-family: SourceSansPro-ExtraLight, sans-serif;
+    font-size: 1.0em;
+    position: relative;
+    left: -3px;
+    
+}
+
+/**dash**/
+ul.dash li{
+    list-style: none;
+    
+    
+}
+ul.dash li a:link{
+    color:#333;
+    padding: 4px;
+    display: block;
+    text-decoration: none
+    
+}
+ul.dash li a:visited{
+    color:#333;
+    display: block;
+    
+}
+ul.dash li a:hover{
+    color:#fff;
+    background: #1a5252;
+    text-decoration: none;
+   
+}
+ul.dash li a:active{
+    color:orange;   
+}
+ul.dash li#here a{
+    color:#99c;
+    /*background: #99c;*/
+    border-top: 2px dotted #669;
+    border-left: 2px dotted #669;
+    text-decoration: none;
+   
+}
+
+/*Ctegories dashboard*/
+ul.cates li{
+    padding: 1px;
+    list-style: circle
+}
+h2.padr{
+    position: relative;
+    left: 15px;
+}
+/**/
+
+.grid_7.padd{
+    position: relative;
+    top: 5px;
+   
+}
+table.booklist{
+  margin-top: 15px 
+}
+.table.view td, .table.view th{
+    padding: 5px;
+}
+
+/*paddings*/
+.workarea form, table.table{
+    padding: 11px
+}
+
+tr.bolder th{
+    font-size: 1.0em;
+    padding: 6px
+}
+tr.bolder td{
+    font-size: 1.0em;
+    padding: 6px;
+    border: 1px solid #eee;
+}
+
+p.msg{
+    color: #99c;
+    font-size: 1.5em;
+    padding: 11px 0px 11px 20px;
+   
+}
+p.err{
+    color: #c33;
+    font-size: 1.5em;
+}
+
+
+form ul li{
+    padding: 4px 0 4px 0;
+}
+
+
+.bookshelf{
+    border: 2px dotted #333;
+    border-left: none;
+}
+.grid_7.workarea{
+    border: 2px dotted #333;
+    border-left: none;
+    border-top: none;
+}

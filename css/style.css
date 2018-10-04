@@ -1,0 +1,583 @@
+      @media (min-width: 679px) { 
+body.home{
+            background: url('../img/hmbg.png');
+           
+            background-repeat: no-repeat;  
+            /*background-size: cover;*/
+            background-position: -150px -100px;
+            background-attachment: fixed
+        }
+       .form.login table{
+     position: relative;
+     top: 100px;
+     left: 25px;
+    
+ }
+        body.admin{
+            background: #eee;
+            background: url('../img/bgee.png');
+            
+            background-repeat: no-repeat; 
+            background-attachment: fixed
+            
+        }
+      }
+@font-face {
+	font-family: 'SourceSansPro-ExtraLight';
+	src: url('../SourceSansPro-ExtraLight-webfont.eot');
+	src: url('../SourceSansPro-ExtraLight-webfont.eot?#iefix') format('embedded-opentype'), 
+	     url('../SourceSansPro-ExtraLight-webfont.woff') format('woff'), 
+	     url('../SourceSansPro-ExtraLight-webfont.ttf')  format('truetype'), 
+	     url('../SourceSansPro-ExtraLight-webfont.svg#svgFontName') format('svg'); 
+	}
+     
+  body.home, body.admin{
+    font-family: SourceSansPro-ExtraLight, sans-serif;
+    font-family: 'Maven Pro', sans-serif;
+    color: #333;
+    font-size: 0.85em;
+    /*font-weight: bold;*/
+
+}
+
+
+.form.pushdown{
+    position: relative;
+    top: 25px;
+}
+.form.pushup{
+    position: relative;
+    top: -85px;
+    left: 35px;
+}
+.logname{
+    color: #333;
+    padding: 1px;
+    position: relative;
+    top: 6px;
+}
+.logname.usracct{
+    position: relative;
+    left: 205px;
+}
+p{
+    color: #333;
+}
+.form ul li{
+    list-style: none;
+}
+.workarea{
+   
+    background: #dbe4ed;
+   /*background: url('../img/opaque.png');
+    background-repeat: repeat;*/
+    position: relative;
+    top: 20px;
+    min-height: 960px;
+    
+    
+}
+.span2.dash{
+    position: relative;
+    top: 40px;
+   left: -20px;
+}
+.searchbox{
+    height: 35px;
+    width: 550px;
+    border: 2px solid #ccc;
+    margin-bottom: 10px;
+    
+}
+.searchbutton{
+    background: #1a5252;
+font-family: SourceSansPro-ExtraLight, sans-serif;
+font-size: 1.2em;
+    padding: 6px;
+    color: #fff;
+    border: none;
+    width: 65px;
+    height: 40px;
+}
+ul.cates{
+    position: relative;
+    left: -25px;
+}
+ul.cates li{
+    list-style: square;
+}
+ul.cates li a{
+    line-height: 150%;
+}
+
+/*form styling*/
+.form input#submit{
+padding: 4px;
+border: 1px solid #6c9;
+background: #1a5252;
+
+}
+
+.form input{
+margin-bottom: 2px;
+border: 1px solid #eee;
+background: #FDFEFE;
+
+}
+.form input:focus,.form select:focus {
+border: 1px solid #09c;
+}
+
+.form label{
+font-size: 1.1em;
+color: #1a5252;
+padding: 5px 5px 5px 0;
+font-weight: normal;
+
+}
+label.error{
+ font-size: 0.9em;
+color: #1a5252; 
+font-weight: normal;
+}
+.find, .form ul li input.find{
+padding: 3px;
+border: 1px solid #6c9;
+color: #fff;
+background: #1a5252;
+font-family: SourceSansPro-ExtraLight, sans-serif;
+font-size: 1.0em;
+
+}
+/*.login table{*/
+.span3.login form{
+    position: relative;
+    left:60px;
+    top:75px;
+}
+.ent{
+    height: 30px;
+    width: 205px;
+        box-shadow: 0px 0px 1px rgba(0, 0, 0, 0.06);
+    -moz-box-shadow: 0px 0px 1px rgba(0, 0, 0, 0.06);
+    -webkit-box-shadow: 0px 0px 1px rgba(0, 0, 0, 0.06);
+    border: 1px solid #eee;
+    
+}
+.select, table td input, select{
+    height: 26px;
+            box-shadow: 0px 0px 1px rgba(0, 0, 0, 0.06);
+    -moz-box-shadow: 0px 0px 1px rgba(0, 0, 0, 0.06);
+    -webkit-box-shadow: 0px 0px 1px rgba(0, 0, 0, 0.06);
+    border: 1px solid #eee;
+    
+}
+input{
+    color: #669;
+    
+}
+
+textarea{
+    color: #669;
+    height: 50px;
+    width: 250px;
+          box-shadow: 0px 0px 1px rgba(0, 0, 0, 0.06);
+    -moz-box-shadow: 0px 0px 1px rgba(0, 0, 0, 0.06);
+    -webkit-box-shadow: 0px 0px 1px rgba(0, 0, 0, 0.06);
+    border: 1px solid #eee;  
+}
+form.signup{
+    position: relative;
+    top: 35px;
+
+}
+button{
+    background: #99c;
+    color: #fff;
+    border: none;
+    padding: 5px;
+    font-family: SourceSansPro-ExtraLight, sans-serif;
+    font-size: 1.0em;
+    position: relative;
+    top: -3px;
+}
+/**dash**/
+.dash ul li{
+    list-style: none;
+    
+}
+.dash ul li a:link{
+    color:#333;
+    padding: 5px;
+    display: block;
+    text-decoration: none;
+    font-size: 1.1em;
+    
+}
+.dash ul li a:visited{
+    color:#333;
+    display: block;
+}
+.dash ul li a:hover{
+    color:#fff;
+    background: #1a5252;
+    text-decoration: none;
+  
+}
+.dash ul li a:active{
+    color:orange;   
+}
+.dash ul li#here a{
+    color:#000;
+    background: greenyellow;
+    text-decoration: none;
+   
+}
+
+p.acctname{
+    font-size: 0.8em;
+}
+/**/
+
+.workarea table{
+    padding: 6px
+}
+.track td, .track th{
+    border: 1px solid #ccc;
+    padding: 6px;
+}
+.track th{
+    border-left: none;
+    border-right: none;
+    border-top: none;
+}
+.topdetails{
+    text-align:  center;
+}
+h3.ac{
+    position: relative;
+    top: -15px;
+    font-weight: normal;
+}
+h2.ac{
+    font-weight: normal;
+}
+tr.bolder th{
+    font-size: 1.0em;
+    padding: 6px;
+}
+tr.bolder td{
+    font-size: 1.1em;
+    padding: 6px;
+    border: 1px solid #eee;
+}
+
+/*ul{
+    padding-left: 10px;
+}*/
+form ul.track li{
+    list-style: none;
+    padding: 3px
+}
+
+/*msgs*/
+p.msg{
+    color: #99c;
+    font-size: 1.5em;
+    padding: 9px;
+   
+}
+p.err{
+    color: #c33;
+    font-size: 1.5em;
+    
+     
+}
+/*paddings*/
+.workarea form, table.table{
+    padding: 11px
+}
+
+.logo{
+    position: relative;
+    top: 20px;
+}
+
+
+p.nom{
+    font-size: 0.9em;
+    color: purple;
+}
+select.min{
+    min-width: 105px;
+    padding: 4px
+}
+.grid_8.centr{
+    position: relative;
+    left: 100px;
+}
+
+ul.dash.ui-widget-content{
+    position: relative;
+    top: -15px;
+}
+/*p.title{
+    color: #333;
+    padding: 9px;
+    font-size: 1.2em;
+    font-weight: bold;
+}*/
+table.ranks{
+    position: relative;
+    left: 12px;
+}
+table.ranks td{
+    border: 1px solid #eee;
+    padding: 6px 8px;
+}
+button.clear{
+    margin-bottom: 20px;
+    background: none;
+    border: 1px solid orange;
+    color: #333;
+}
+
+body.result{
+    background: url('../img/result_bg.png');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+   
+    font-family: SourceSansPro-ExtraLight, sans-serif;
+    font-weight: bold;
+    font-size: 0.9em;
+    
+    background-position-x: 65px;
+   
+}
+
+div.acct{
+    position: absolute;
+    top: 32px;
+    
+}
+div.acct a{
+   text-decoration: none;
+}
+div.acct a.back{
+    background: #eee;
+    padding: 6px; 
+  
+}
+
+
+input[type='text'], input[type='password']{
+    min-height: 30px;
+    border-radius: 0;
+    width: 90%
+   
+}
+select{
+    min-height: 35px;
+    border-radius: 0;
+    width: 100%
+   
+}
+/** report card*/
+table td.subs{
+    border: 1px dotted #99c;
+}
+table td.peru{
+    border: 1px dotted peru;
+}
+
+
+/*inputs size*/
+input[type='text'], select, textarea{
+    font-size: 1.0em;
+}
+
+/*analytics table*/
+table.analytics tr td{
+    padding: 6px;
+    border: 1px dotted #99c;
+}
+table.analytics tr td.term{
+    border: 1px dashed #333;
+    color: darkred;
+}
+table.analytics tr td.bar{
+    border: none;
+    padding: 0;
+}
+
+/*result*/
+table.result td.test{
+    width: 30px !important;
+}
+table.result td.grade{
+    min-width: 110px;
+}
+
+/*to parents*/
+  body.admin.pins .wrappp p{
+    font-family: 'helvetica',SourceSansPro-ExtraLight, sans-serif;
+    color: #000;
+    font-size: 1.4em;
+    font-weight: normal;
+
+}
+
+      body.admin.pins p{
+    padding: 9px;
+    padding-left: 20px
+
+}
+     body.admin.pins p.heading{
+    padding: 9px;
+    padding-left: 20px;
+    
+    font-weight: bold;
+    font-size: 1.2em
+
+}
+.wrappp{
+    position:relative;
+    top: 80px;
+    padding-bottom: 30px;
+    margin-bottom: 20px;
+    height: 470px;
+}
+
+
+
+.rec tr td {
+    padding: 9px
+}
+label{
+    font-weight: bold;
+    font-size: 1.0em;
+     
+}
+
+
+/*more styles on responsive version*/
+table tr td{
+    padding: 0 8px
+}
+table tr td label{
+    padding: 0 8px;
+   
+}
+select{
+    min-height: 39px
+}
+
+/*input[type="submit"],select{
+    margin-left: 5px;
+     margin-right: 5px
+}*/
+input[type="submit"]{
+    background: #333;
+    color: snow;
+}
+div.paginator{
+    font-size: 0.9em
+}
+div.paginator select{
+    width: 35px;
+    height: 20px !important;
+   
+}
+
+select, input, textarea {
+    font-family: SourceSansPro-ExtraLight, sans-serif;
+    font-size: 1.2em
+}
+
+
+
+/*on mobile*/
+@media (max-width: 640px) {
+ 
+ body {
+            background: url('../img/minibg.png');
+            background-repeat: no-repeat; 
+            background-attachment: fixed;
+            background-size: cover;
+ } 
+ .form.login input{
+     background: none;
+     border:none;
+     border-bottom: 1px dashed snow;
+     color: grey;
+     color: snow;
+ }
+ .form.login label{
+     color: snow;
+ }
+ .form.login table{
+     position: relative;
+     top: 85px;
+ }
+ .dash ul.ui-widget-content{
+     background: url('../img/opaque_w.png');
+     background-repeat: repeat;
+     padding: 6px;
+     width: 95%;
+     margin-bottom: 45px
+  
+ }
+ table{
+     overflow-x: auto;
+     display: block;
+ }
+ img{
+     max-width: 80%
+ }
+ p.nom{
+     color: #ccc;
+     position: relative;
+     left: -15px;
+     top: -25px;
+     margin-left: 15px
+ }
+
+}
+
+ .form label{
+font-size: 1.1em;
+color: grey;
+padding: 5px 5px 5px 0;
+
+}
+img.avatar{
+    position: absolute;
+    top: 80px;
+    left: 900px;
+    margin-bottom: 15px;
+    width: 121px;
+    height: 140px;
+}
+p.nom{
+    position: relative;
+    left: 10px;
+}
+button.bio{
+    position: relative;
+    top: 5px;
+}
+button.print{
+    position: relative;
+    top: 1px;
+}
+
+
+.dash.ui-widget-content{
+    background: none;
+    border: none
+}
+
+td.assess{
+    padding: 9px;
+}
