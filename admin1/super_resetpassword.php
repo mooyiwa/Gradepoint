@@ -26,7 +26,7 @@ include('../cnx.php');
     <div class="row"> 
     <div class="span10 alpha workarea">
          
-<?php if(isset($_POST['submit']) && $result) {echo "<p class='msg'>",$msg,"</p>","\n";} ?>        
+<?php if(isset($_POST['submit']) && $reset) {echo "<p class='msg'>",$msg,"</p>","\n";} ?>        
 <form action="" method="POST">
 <table>
     
