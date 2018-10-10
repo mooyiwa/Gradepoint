@@ -1,21 +1,21 @@
 <?php 
 
 if(isset($_POST['submit'])) {
-     $psw = $_POST['psw'];
-     $usr = $_POST['usr'];
+     $psw = $_POST['newpass'];
+     $usr = $_POST['tid'];
 
      
-     $sql = "update users set password = md5('$psw')
+     $resql = "update `users` set `password` = md5('$psw')
                                
-                                 where username = '".$usr."' ";
+                                 where `username` = '".$usr."' ";
 				                      
-     $result = mysqli_query($cnx,$sql);
+     $reset = mysqli_query($cnx,$resql);
+     if($reset){
      $msg = 'PASSWORD CHANGED!';
-		 
+     }		 
 }
      
-    
-    
+   
  			
   
 ?>
