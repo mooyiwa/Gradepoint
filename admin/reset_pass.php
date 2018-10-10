@@ -5,7 +5,21 @@ include('../cnx.php');
 //hijack fix && session mgt
        include('../includes/hijack_sess.inc.php'); 
 // Reset       
-       include('includes/reset_pass.inc.php'); 
+      if(isset($_POST['submit'])) {
+     $psw = $_POST['psw'];
+     $usr = $_POST['usr'];
+
+     
+     $resql = "update `users` set `password` = md5('$psw')
+                               
+                                 where `username` = '".$usr."' ";
+                              
+     $reset = mysqli_query($cnx,$resql);
+     if($reset){
+     $msg = 'PASSWORD CHANGED!';
+     }     
+}
+
         //get all users for drop down
    $ssql = "select username from users where school = '".mysqli_real_escape_string($cnx,$_SESSION['school'])."' and who != 'student' and username != 'admin_sj1' and username != 'pinner' order by username";
    $sresult =  mysqli_query($cnx,$ssql);
@@ -30,7 +44,7 @@ include('../cnx.php');
     <div class="row"> 
     <div class="span10 alpha workarea">
          
-         <?php if(isset($_POST['submit']) && $result) { echo "<p class='msg'>",$msg,"</p>","\n";} ?>
+         <?php if(isset($_POST['submit']) && $reset) { echo "<p class='msg'>",$msg,"</p>","\n";} ?>
          <form action="<?php $_SERVER['PHP_SELF'] ?>" method="post" class="form">
                
               <table>
